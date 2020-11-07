@@ -1,0 +1,7 @@
+roslaunch r2d2 display_urdf.launch model:='$(find r2d2)/urdf/07-physics.urdf'
+
+roslaunch r2d2 gazebo.launch model:='$(find r2d2)/urdf/09-publishjoints.urdf.xacro'
+
+roslaunch r2d2 13-diffdrive.launch model:='$(find r2d2)/urdf/13-diffdrive.urdf.xacro'
+
+#parameter server

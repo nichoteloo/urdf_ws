@@ -1,0 +1,2 @@
+learning_tf:r2d2:robot_setup_tf
+-DCATKIN_DEVEL_PREFIX=/home/nichotelo/ros/urdf_ws/devel -DCMAKE_INSTALL_PREFIX=/home/nichotelo/ros/urdf_ws/install -G Unix Makefiles
